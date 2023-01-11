@@ -13,14 +13,11 @@ export class Track extends React.Component {
 
     addTrack(){
         this.props.onAdd(this.props.track)
-        console.log('add')
     }
 
     removeTrack(){
         this.props.onRemove(this.props.track)
-        console.log('remove')
     }
-
     render() {
         return (
             <div className="Track">
